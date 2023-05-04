@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&family=Montserrat&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+:root {
+    --primary-color: #93c5fd;
+    --login--color: #1d4ed8;
+    --submit--color: #0d9488;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+}
