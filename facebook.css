@@ -1,12 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&family=Montserrat&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Ubuntu&display=swap');
 
 :root {
-    --primary-color: #93c5fd;
+    --primary-color: #d1d5db;
     --login--color: #1d4ed8;
-    --submit--color: #0d9488;
+    --submit--color: #15803d;
 }
 
 body {
     background-color: var(--primary-color);
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.container {
+    padding: 12rem 0rem 0rem 5rem;
+
+}
+
+/* .para {
+    padding-top: 35%;
+} */
+
+img {
+    height: 150px;
+}
+
+.list {
+    list-style: none;
+}
+
+.login-container {
+    border-radius: 3rem;
+    background-color: white;
+    padding-top: 5rem;
+    margin-top: 7rem;
+    /* margin-right: 5rem; */
+    padding-bottom: 2rem;
+    
+}
+
+.login-list  {
+    padding-right:  7rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+p {
+    padding-right: 7rem;
+}
+
+#list-item {
+    padding-bottom: 0.5rem;
+}
+
+#email-pwd {
+    border-radius: 0.3rem;
+    padding: 0.5rem 0rem 0.5rem 1rem;
+}
+
+#btn {
+    padding: 0.4rem 4.6rem 0.4rem 4.6rem;
+    color: white;
+    background-color: var(--login--color);
+}
+
+#for-pwd {
+    text-decoration: none;
+}
+
+#sub-btn {
+    padding: 0.4rem 2.2rem 0.4rem 2.2rem;
+    color: white;
+    background-color: var(--submit--color)
 }

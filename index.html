@@ -8,21 +8,42 @@
     <link rel="stylesheet" href="facebook.css">
 </head>
 <body>
-    <div>
-        <img src="/images/facebook.svg" alt="Facebook">
-        <h2>Facebook helps you connect and share with the people in your life.</h2>
+    <div class="container">
+        <ul class="list">
+            <li>
+                <img src="/images/facebook.svg" alt="Facebook">
+            </li>
+            <li>
+                <p>Facebook helps you connect and share with the people in your life.</p>
+            </li>
+        </ul>
     </div>
 
-    <div>
-        <ul>
-            <li><input type="text" value="Enter email address"></li>
-            <li><input type="text" value="password"></li>
-            <li><button>Log in</button></li>
-            <li><a href="#">Forgotten password</a></li>
-            <li><hr></li>
-            <li><button>Create new account</button></li>
+    <div class="container login-container">
+        <ul class="list login-list"> 
+            <li id="list-item">
+                <input id="email-pwd" type="text" value="Enter email address" >
+            </li>
+            <li id="list-item">
+                <input id="email-pwd" type="text" value="password">
+            </li>
+            <li id="list-item">
+                <button id="btn">Log in</button>
+            </li>
+            <li id="list-item">
+                <a  id="for-pwd" href="#">Forgotten password</a>
+            </li>
+            <li id="list-item">
+                <hr>
+            </li>
+            <li id="list-item">
+                <button id="sub-btn">Create new account</button>
+            </li>
         </ul>
-        <p><span>Create a page </span>for celebrity, brand or business.</p>
     </div>
+
+    <!-- <div class="para">
+        <p><span>Create a page </span>for celebrity, brand or business.</p>
+    </div> -->
 </body>
 </html>
